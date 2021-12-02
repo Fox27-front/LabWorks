@@ -22,7 +22,9 @@ h1 {
     color: #6e7ea9;
     text-transform: uppercase;
 }
-
+a:hover{
+    color:gold;
+}
 .btn-free {
     color: #fff;
     font-weight: 400;
