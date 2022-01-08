@@ -26,10 +26,10 @@ h1 {
     list-style-type: none;
 }
  
-li{
+/*li{
     display: inline;
     padding: 5px;
-}
+}*/
 
 .btn-primary{
     color: #fff;
@@ -38,7 +38,7 @@ li{
     font-size: 12px;
     font-weight: 700;
     padding: 25px 45px;
-    border-radius: 30px;
+    border-radius: 40px;
     letter-spacing: 3.5px;
     border: 1px solid #1085e4;
 }
@@ -68,6 +68,8 @@ li{
     font-weight: 400;
     letter-spacing: 2.3px;
     padding: 25px 60px;
+    border-radius: 40px;
+    font-weight: 900;
 }
 .bth-group a+a{
     margin-left: 15px;
@@ -273,4 +275,24 @@ li{
     color: #1085e4 ;
     background-color: #fff ;
 }
+
+.nav{
+display: flex;
+display: inline-flex;
+padding: 15px;
+text-align: right;
+margin-left: 220px;
+}
+
+li{
+padding: 14px;
+letter-spacing: 3.5px;
+}
+
+.first{
+position: absolute;
+top: 15px;
+}
+
+
 
