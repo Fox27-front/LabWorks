@@ -124,6 +124,20 @@ h1 {
     display: block;
 }
 
+.page-subscribe{
+    background: linear-gradient(90deg, #0b2493, #2377cd);
+    height: 700px;
+    weight: 700px;
+}
+
+.page-subscribe img{
+    padding-left: 200px;
+}
+
+.page-subscribe input{
+    border-radius: 80px;
+}
+
 .page-subscribe h2{
     font-size: 50px;
     font-weight: 600;
@@ -283,23 +297,23 @@ h1 {
     background-color: #fff ;
 }
 
-.nav{
+/*.nav{
 display: flex;
 display: inline-flex;
 padding: 15px;
 text-align: right;
 margin-left: 220px;
-}
+}*/
 
 /*li{
 padding: 14px;
 letter-spacing: 3.5px;
 }*/
 
-.first{
+/*.first{
 position: absolute;
 top: 5px;
-}
+}*/
 
 .list-stat{
     display: flex;
@@ -461,7 +475,7 @@ top: 5px;
     content: "";
     width: 58px;
     height: 100%;
-    background-image: url(../img/tr.png);
+    background-image: url(../img/sk.png);
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
@@ -497,3 +511,82 @@ top: 5px;
 .page-plan .btn-primary:hover{
     background: transparent;
 }
+
+.logo{
+    display: block;
+    background-image: url(../img/logo.png);
+    width: 187px;
+    height: 49px;
+}
+
+.box-header{
+    display: flex;
+    letter-spacing: 3.5px;
+    align-items: center;
+    padding-top: 53px;
+    margin-bottom: 65px;
+}
+
+.page-header{
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 332px 0;
+    position: relative;
+}
+
+.screen-img{
+    display: block;
+    background-image: url(../img/sk.png);
+    background-repeat: no-repeat;
+    width: 895px;
+    height: 740px;
+    position: absolute;
+    top: 200px;
+    right: 0px; 
+}
+
+.page-company{
+    background-color: #0084ff;
+    /*background-image: url(../img/sk.png);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.list-company{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-company-item{
+    display: block;
+    flex-basis: 20%;
+    background-repeat: no-repeat;
+}
+
+.company-one{
+    background-image: url(../img/company-1.png);
+    height: 72px;
+}
+
+.company-two{
+    background-image: url(../img/company-2.png);
+    height: 90px;
+}
+
+.company-three{
+    background-image: url(../img/company-3.png);
+    height: 72px;
+}
+
+.company-four{
+    background-image: url(../img/company-4.png);
+    height: 72px;
+}
+
+
