@@ -588,5 +588,104 @@ top: 5px;
     background-image: url(../img/company-4.png);
     height: 72px;
 }
+ 
+.page-subdown{
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+}
+.page-subscribe h2 span{
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.page-subscribe .page-subdown{
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
 
+.box-subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.box-subscribe-user input::-webkit-input-placeholder{
+    color: #b1c3ee;
+}
+
+.box-subscribe-user input::-moz-placeholder{
+    color: #b1c3ee;
+}
+
+.box-subscribe-user input:-moz-placeholder{
+    color: #b1c3ee;
+}
+
+.box-subscribe-user input:-ms-input-placeholder{
+    color: #b1c3ee;
+}
+
+.box-subscribe-user input{
+    border: 2px solid #3f5cb1;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 25px 200px 25px 37px;
+    display: block;
+    width: 70%;
+    box-sizing: border-box;
+    box-shadow: 10px 20px 30px rgba(146, 226, 250, 0.5);
+}
+
+/* убираем рамку */ 
+.box-subscribe-user input:focus{
+ outline: none;
+}
+
+.box-subscribe{
+    position: relative;
+}
+
+.box-subscribe-user .btn-primary{
+    position: absolute;
+    top: 202px;
+    padding: 22px 45px;
+    right: 1095px;
+    margin: 332px;
+}
+
+.box-subscribe-child{
+    flex-basis: 49%;
+    padding: 220px 210px;
+}
+
+.box-subscribe-user input:focus,
+.box-subscribe-user .btn-primary{
+    outline: none;
+}
+
+.box-subscribe-user{
+    padding: 100px;
+    margin-left: -99px;
+    bottom: 90px;
+}
+
+.Robot
+{
+    position: absolute;
+    right: 640px;
+    bottom: 245px;
+}
+
+.page-subdown span{
+    margin: 20px;
+}
+
+.page-submain{
+    width:360px;
+    word-break:break-all;
+}
