@@ -127,7 +127,7 @@ h1 {
 .page-subscribe{
     background: linear-gradient(90deg, #0b2493, #2377cd);
     height: 700px;
-    weight: 700px;
+    /*weight: 700px;*/
 }
 
 .page-subscribe img{
@@ -688,4 +688,118 @@ top: 5px;
 .page-submain{
     width:360px;
     word-break:break-all;
+}
+
+.grid-item{
+    text-align: center;
+}
+
+.grid-icon{
+    display: block;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.grid-icon-1{
+    background-image: url(../img/1.png);
+    width: 73px;
+    height: 79px;
+}
+
+.grid-icon-2{
+    background-image: url(../img/2.png);
+    width: 73px;
+    height: 79px;
+}
+
+.grid-icon-3{
+    background-image: url(../img/3.png);
+    width: 73px;
+    height: 79px;
+}
+
+.grid-icon-4{
+    background-image: url(../img/4.png);
+    width: 73px;
+    height: 79px;
+}
+
+.grid-icon-5{
+    background-image: url(../img/5.png);
+    width: 73px;
+    height: 79px;
+}
+
+.grid-icon-6{
+    background-image: url(../img/6.png);
+    width: 73px;
+    height: 79px;
+}
+
+.grid-item{
+    text-align: center;
+    box-shadow: 0 0 5px #f4f4f4;
+}
+
+.grid{
+    display: grid;
+}
+
+.grid-item-title{
+    grid-area: a;
+}
+
+.grid-item-1{
+    grid-area: b;
+}
+
+.grid-item-2{
+    grid-area: c;
+}
+
+.grid-item-3{
+    grid-area: d;
+}
+
+.grid-item-4{
+    grid-area: e;
+}
+
+.grid-item-5{
+    grid-area: f;
+}
+
+.grid-item-6{
+    grid-area: g;
+}
+
+.grid-text{
+    grid-area: h;
+}
+
+.grid{
+    display: grid;
+    grid-template-areas: "a b c" "d b c" "d e f" "g e f" "g h h";
+}
+
+.grid-icon{
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.grid-item-title .first{
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.last-text{
+    font-size: 20px;
+    font-weight: bold;
+    color: #192b59;
+    line-height: 1.2;
+    letter-spacing: -1.5px; 
+}
+
+.grid-text-last{
+    color: #1085e4;
 }
